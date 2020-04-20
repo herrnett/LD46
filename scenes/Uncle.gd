@@ -9,11 +9,11 @@ var leaving = false
 var i = 0
 var bbtextlayout = "[center]%s[/center]"
 var uncle_text = [
-#	"My nephew.",
-#	"I must go.",
-#	"Dark times\nare upon us.",
-#	"Your uncle\nhas to help.",
-#	"Wait for me.",
+	"My nephew.",
+	"I must go.",
+	"Dark times\nare upon us.",
+	"Your uncle\nhas to help.",
+	"Wait for me.",
 	"Be safe."
 ]
 

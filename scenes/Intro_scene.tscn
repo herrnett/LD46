@@ -32,7 +32,6 @@ extents = Vector2( 1.5, 1 )
 script = ExtResource( 7 )
 
 [node name="Backdrop" parent="." instance=ExtResource( 1 )]
-color = Color( 0.356863, 0.431373, 0.882353, 1 )
 
 [node name="Killplane" parent="." instance=ExtResource( 2 )]
 
