@@ -9,6 +9,7 @@ func _ready():
 	$Backdrop/cloud_01.position.x -= 6
 	$Backdrop/cloud_02.position.x += 16
 	$Backdrop/cloud_02.position.y += 3
+	$Backdrop/apple.visible = false
 	
 	if Globals.tree != 0:
 			$Backdrop/tree.visible = true

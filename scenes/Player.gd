@@ -157,8 +157,8 @@ func sickcheck():
 		SPEED = 24
 
 func sleep():
-#	Globals.hunger -= 1
-#	Globals.thirst -= 1
+	Globals.hunger -= 1
+	Globals.thirst -= 1
 	if !Globals.healthy: Globals.thirst -= 1
 	if Globals.hunger < 1 and Globals. thirst < 1 and !Globals.healthy:
 		Globals.deathcause = "Hell"
