@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Lonely Years"
+config/name="Lonely Year"
 run/main_scene="res://scenes/Intro_scene.tscn"
 boot_splash/image="res://Splash.png"
 config/icon="res://Icon.png"
