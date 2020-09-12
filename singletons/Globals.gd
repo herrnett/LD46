@@ -1,6 +1,7 @@
 extends Node
 
 var game_started = false
+var autostarttext = true
 var intro_done = false
 
 var deathcause = null 
@@ -17,6 +18,7 @@ var soilstep = 0
 
 func reset():
 	game_started = false
+	autostarttext = true
 	intro_done = false
 	deathcause = null 
 	dayssurvived = 0
