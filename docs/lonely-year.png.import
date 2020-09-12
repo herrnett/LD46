@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/index.png-de14850a4c2320eaddca8799ea52db2b.stex"
+path="res://.import/lonely-year.png-e6b9a65e7f0139a3e948c8077f98525e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://export/index.png"
-dest_files=[ "res://.import/index.png-de14850a4c2320eaddca8799ea52db2b.stex" ]
+source_file="res://docs/lonely-year.png"
+dest_files=[ "res://.import/lonely-year.png-e6b9a65e7f0139a3e948c8077f98525e.stex" ]
 
 [params]
 
