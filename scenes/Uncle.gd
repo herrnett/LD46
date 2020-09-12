@@ -4,6 +4,7 @@ onready var label = $RichTextLabel
 onready var motion = Vector2.ZERO
 const SPEED = 20
 var musicstarted = false
+var autostarttext = true
 var textdone = false
 var leaving = false
 var i = 0
@@ -22,7 +23,7 @@ func _ready():
 	label.bbcode_text = bbtextlayout % uncle_text[i]
 
 func _physics_process(delta):
-	if Input.is_action_just_pressed("ui_accept") and Globals.game_started:
+	if (autostarttext or Input.is_action_just_pressed("ui_accept")) and Globals.game_started:
 		if textdone and i < uncle_text.size()-1:
 			label.visible_characters = 0
 			i += 1
@@ -32,6 +33,7 @@ func _physics_process(delta):
 			label.visible_characters = 0 
 			leaving = true
 		if !textdone: 
+			autostarttext = false
 			$Timer.start()
 			$AudioStreamPlayer.play()
 		else: 

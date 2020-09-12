@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/Blip.ogg-9a7d7e80223942acbb1f342ca99485b3.oggstr"
+path="res://.import/blip.ogg-89ec4d8240832073b8e217e7c2964e0f.oggstr"
 
 [deps]
 
-source_file="res://sfx/Blip.ogg"
-dest_files=[ "res://.import/Blip.ogg-9a7d7e80223942acbb1f342ca99485b3.oggstr" ]
+source_file="res://sfx/blip.ogg"
+dest_files=[ "res://.import/blip.ogg-89ec4d8240832073b8e217e7c2964e0f.oggstr" ]
 
 [params]
 
