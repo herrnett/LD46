@@ -22,7 +22,7 @@ func _ready():
 	label.bbcode_text = bbtextlayout % uncle_text[i]
 
 func _physics_process(delta):
-	if (Globals.autostarttext or Input.is_action_just_pressed("ui_accept")) and Globals.game_started:
+	if  Input.is_action_just_pressed("ui_accept") and Globals.game_started:
 		if textdone and i < uncle_text.size()-1:
 			label.visible_characters = 0
 			i += 1
