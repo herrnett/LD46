@@ -17,8 +17,8 @@ _global_script_class_icons={
 
 config/name="Lonely Year"
 run/main_scene="res://scenes/Intro_scene.tscn"
-boot_splash/image="res://Splash.png"
-config/icon="res://Icon.png"
+boot_splash/image="res://gfx/misc/splash.png"
+config/icon="res://gfx/misc/icon.png"
 
 [autoload]
 
