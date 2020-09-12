@@ -1,0 +1,24 @@
+-----------------Version history of Lonely Year-----------------
+
+Preface: This "game" was made over the course of three days for
+Ludum Dare 46. Back when I wrote it I didn't care too much about
+commenting, which in retrospect turned out to be stupid. 
+I assume you already knew that (only nerds read documents such
+as this one anyways), but just in case: Learn from my fail,
+comment your code. I just looked into it for the first time
+since LD46 to adjust the game volume and... well, I couldn't 
+remember a thing. So in the end I had to go through every single
+node to find the relevant tweens. No fun.
+
+However: Since I changed something, I figured it'd be a good
+idea to write a version history for future me and other nerds.
+
+BEHOLD:
+
+-----------------v1.0-----------------
+-Initial version. Not much to say here.
+
+-----------------v1.1-----------------
+-Volume of bgm and sfx raised.
+-Made dialogue start by itself after title screen.
+-Didn't do any commenting. Next time. Probably.
