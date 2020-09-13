@@ -23,7 +23,7 @@ config/icon="res://gfx/misc/icon.png"
 [autoload]
 
 Globals="*res://singletons/Globals.gd"
-Scenechanger="*res://singletons/Scene_changer.tscn"
+Scenechanger="*res://singletons/Scenechanger.tscn"
 Bgm="*res://singletons/bgm.tscn"
 
 [display]

@@ -11,5 +11,5 @@ func fade_out():
 
 func fade_in():
 	self.playing = true
-	tween.interpolate_property(self, "volume_db", -80, 0, 2.5, Tween.TRANS_SINE, Tween.EASE_OUT)
+	tween.interpolate_property(self, "volume_db", -80, 0, 4, Tween.TRANS_SINE, Tween.EASE_OUT)
 	tween.start()

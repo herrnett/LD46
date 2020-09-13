@@ -179,13 +179,13 @@ func sleep():
 		Globals.deathcause = "So thirsty..."
 		kill(false)
 
-func kill(fade = true):
+func kill(fadeoutfirst = true):
 	is_alive = false
 	velocity = Vector2.ZERO
 	tween.interpolate_property($Camera2D, "zoom", $Camera2D.zoom, Vector2(1,1), 2, Tween.TRANS_QUINT, Tween.EASE_OUT)
 	tween.start()
 	Bgm.fade_out()
-	if fade: Scenechanger.change_scene("res://scenes/Death_scene.tscn")
+	if fadeoutfirst: Scenechanger.change_scene("res://scenes/Death_scene.tscn")
 	else: Scenechanger.change_scene("res://scenes/Death_scene.tscn", 0.5, false)
 
 func set_camera():

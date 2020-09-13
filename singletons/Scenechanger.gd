@@ -9,5 +9,5 @@ func change_scene(path, delay = 0.5, fadeoutfirst = true):
 	if fadeoutfirst:
 		animation_player.play("fade")
 		yield(animation_player, "animation_finished")
-	assert(get_tree().change_scene(path) == OK)
+	get_tree().change_scene(path)
 	animation_player.play_backwards("fade")
